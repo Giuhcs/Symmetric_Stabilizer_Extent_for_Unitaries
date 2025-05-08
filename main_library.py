@@ -4,11 +4,7 @@ import numpy as np
 def tensor_T(n):
     """ This function returns the tensor product of n T gates 
     as a (complex) numpy 1d-array """
-    T=np.array([1.0,np.exp(1j*np.pi/4)])
-    aux=np.array(1.0)
-    for i in range(n):
-        aux=np.kron(aux,T)
-    return aux
+    return np.array([1.0]*(2**n-1)+[np.exp(1j*np.pi/4)])
 
 def U(theta,n):
     """ This function returns the C^(n-1)-U(theta) on n qubits 

@@ -1,5 +1,5 @@
 # Symmetric_Stabilizer_Extent_for_Unitaries
-This is the repository with codes that can be used to reproduce the results in the work ???.
+This is the repository with codes that can be used to reproduce the results in the work titled "Symmetry-accelerated classical simulation of Clifford-dominated circuits"
 
 Functions are organized in the library *sse_library*, to be explained below; some of them benefit of 
 parallelized computation and can be modified easily if necessary. We also include some possibly useful data.
